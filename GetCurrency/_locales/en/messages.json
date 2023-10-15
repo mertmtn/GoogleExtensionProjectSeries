@@ -1,0 +1,17 @@
+{
+    "name":{
+        "message":"Get Currency (TCMB)"
+    },
+    "description":{
+        "message":"Shows current currenct from TCMB"
+    },
+    "thCurrency":{
+        "message":"Currency"
+    },
+    "thBuying":{
+        "message":"Buying"
+    },
+    "thSelling":{
+        "message":"Selling"
+    }
+}

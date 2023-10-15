@@ -7,7 +7,10 @@ fetch(xmlUrl)
     const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
 
     const currencyNodes = xmlDoc.getElementsByTagName('Currency');
-    
+    document.getElementById("tableTitle").innerText = chrome.i18n.getMessage("name")
+    document.getElementById("thCurrency").innerText = chrome.i18n.getMessage("thCurrency")
+    document.getElementById("thBuying").innerText = chrome.i18n.getMessage("thBuying")
+    document.getElementById("thSelling").innerText = chrome.i18n.getMessage("thSelling")
     for (let i = 0; i < currencyNodes.length; i++) {
       const currencyNode = currencyNodes[i];
       const currencyName = currencyNode.querySelector('Isim').textContent;

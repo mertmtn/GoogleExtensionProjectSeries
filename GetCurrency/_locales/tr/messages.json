@@ -1,0 +1,17 @@
+{
+    "name":{
+        "message":"Güncel Kurlar (TCMB)"
+    },
+    "description":{
+        "message":"Anlık döviz kurunu görüntülemeyi sağlar."
+    },
+    "thCurrency":{
+        "message":"Para birimi"
+    },
+    "thBuying":{
+        "message":"Alış"
+    },
+    "thSelling":{
+        "message":"Satış"
+    }
+}

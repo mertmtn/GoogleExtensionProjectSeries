@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Get Currency",
-  "description": "Anlık döviz kurunu görüntülemeyi sağlar.",
+  "name": "__MSG_name__",
+  "description": "__MSG_description__",
+  "default_locale":"tr",
   "version": "1.0",
   "icons": {
     "16": "images/icon-16.png",
