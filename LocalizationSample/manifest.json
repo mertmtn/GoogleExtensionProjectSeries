@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Sample Localization",
+  "version": "1.0.0",
+
+  "description": "__MSG_description__",
+  "default_locale": "tr",
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{ "js": ["/popup.js"], "matches": ["<all_urls>"] }]
+}

@@ -1,0 +1,4 @@
+{
+  "Greeting": { "message": "Hello" },
+  "description": { "message": "Localization sample using chrome.i18n" }
+}
