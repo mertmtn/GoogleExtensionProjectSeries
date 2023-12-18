@@ -1,0 +1,14 @@
+{
+  "name": "Counter for Devfest",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "default_locale":"tr"
+}

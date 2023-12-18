@@ -1,4 +1,4 @@
 {
-  "Greeting": { "message": "Merhaba" },
-  "description": { "message": "chrome.i18n kullanarak örnekler içerir." }
+  "Greeting": { "message": "Merhaba"},
+  "description": { "message": "chrome.i18n kullanarak örnekler içerir." }  
 }
